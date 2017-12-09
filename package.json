@@ -1,0 +1,29 @@
+{
+  "name": "node-red-contrib-fan",
+  "version": "1.0.0",
+  "description": "A simple Node Red node to to allow flows to be fanned in or out.",
+  "dependencies": {
+  },
+  "author": {
+    "name": "Dean Cording",
+    "email": "dean@cording.id.au"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node-red",
+    "fan"
+  ],
+  "bugs": {
+    "url": "https://github.com/DeanCording/node-red-contrib-fan/issues"
+  },
+  "homepage": "https://github.com/DeanCording/node-red-contrib-fan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DeanCording/node-red-contrib-fan.git"
+  },
+  "node-red": {
+    "nodes": {
+      "rate": "fan.js"
+    }
+  }
+}
