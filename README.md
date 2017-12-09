@@ -3,10 +3,10 @@ A simple Node Red node that can be used to allow flows to be fanned in or out to
 
 Changes this
 
-![Unfanned](Unfanned.jpg)
+![Unfanned](Unfanned.png)
 
 into this
 
-![Fanned](Fanned.jpg)
+![Fanned](Fanned.png)
 
 Messages are simply passed through this node.
