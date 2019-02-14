@@ -2,8 +2,7 @@
   "name": "node-red-contrib-fan",
   "version": "1.0.0",
   "description": "A simple Node Red node to to allow flows to be fanned in or out.",
-  "dependencies": {
-  },
+  "dependencies": {},
   "author": {
     "name": "Dean Cording",
     "email": "dean@cording.id.au"
