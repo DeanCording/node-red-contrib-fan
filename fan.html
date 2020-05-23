@@ -1,22 +1,26 @@
 <script type="text/javascript">
     RED.nodes.registerType('fan',{
         category: 'function',
-        color: '#165b2f',
+        color: '#7C9A8C',
         defaults: {
-                    },
+            name: {value:""}
+        },
         inputs:1,
         outputs:1,
-        icon: "arrow-in.png",
+        icon: "font-awesome/fa-minus",
         label: function() {
-            return "";
+            return this.name||"fan";
         }
     });
 </script>
 
 <script type="text/x-red" data-template-name="fan">
-    <p>There are no configuration options.</p>
+  <div class="form-row>
+      <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+      <input type="text" id="node-input-name" placeholder="Name">
+  </div>
 </script>
 
 <script type="text/x-red" data-help-name="fan">
-    <p>This node is used to fan flows in or out.  It does nothing but pass messages through.  It is a convienence node to reduce clutter in the editor from having lots of flows.</p>
+    <p>This node is used to fan flows in or out.  It only passes through messages, leaving them unchanged.  It is a convienence node to reduce clutter in the editor from having lots of flows.</p>
 </script>
